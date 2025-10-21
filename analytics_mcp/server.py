@@ -32,7 +32,7 @@ def run_server() -> None:
 
     Serves as the entrypoint for the 'runmcp' command.
     """
-    mcp.run()
+    mcp.run(transport="sse")
 
 
 if __name__ == "__main__":
